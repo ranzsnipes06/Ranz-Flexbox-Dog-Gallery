@@ -30,6 +30,11 @@ body{
     border-radius: 10px;
 }
 
+.gallery::after{
+    content: "TEXT";
+    width: 350px;
+}
+
 .header {
     text-align: center;
     text-transform: uppercase;
@@ -39,3 +44,4 @@ body{
     border-bottom: 4px solid #fdb347;
 
 }
+
